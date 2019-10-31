@@ -33,7 +33,7 @@ const Form = () => {
           <label>Password</label>
           <div>
             <input
-              className={`${errors.email && "inputError"}`}
+              className={`${errors.password && "inputError"}`}
               name="password"
               type="password"
               value={values.password}
